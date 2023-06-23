@@ -1,0 +1,24 @@
+{
+  "name": "maintenance-template",
+  "version": "1.0.0",
+  "description": "Maintenance template for sites and applications",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lymlive/maintenance-template.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Lymlive Media",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lymlive/maintenance-template/issues"
+  },
+  "homepage": "https://github.com/lymlive/maintenance-template#readme"
+}

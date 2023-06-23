@@ -69,6 +69,7 @@ Date:   Mon Aug 1 11:27:13 2020 -0400
 
     Signed-off-by: John Doe <john.doe@example.com>
 ```
+
 ## Sign your commits
 
 To ensure the authenticity and integrity of code contributions, **we require that all commits are signed**. Signing commits proves that your commits were truly created by you, as the holder of a private key.

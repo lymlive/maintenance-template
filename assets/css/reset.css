@@ -3,8 +3,8 @@ label: Core Remedies
 version: 0.1.0-beta.2
 
 note: |
-  These remedies are recommended
-  as a starter for any project.
+    These remedies are recommended
+    as a starter for any project.
 
 category: file
 */
@@ -13,7 +13,7 @@ category: file
 label: Box Sizing
 
 note: |
-  Use border-box by default, globally.
+    Use border-box by default, globally.
 
 category: global
 */
@@ -27,11 +27,11 @@ category: global
 label: Line Sizing
 
 note: |
-  Consistent line-spacing,
-  even when inline elements have different line-heights.
+    Consistent line-spacing,
+    even when inline elements have different line-heights.
 
 links:
-  - https://drafts.csswg.org/css-inline-3/#line-sizing-property
+    - https://drafts.csswg.org/css-inline-3/#line-sizing-property
 
 category: global
 */
@@ -43,7 +43,7 @@ html {
 label: Body Margins
 
 note: |
-  Remove the tiny space around the edge of the page.
+    Remove the tiny space around the edge of the page.
 
 category: global
 */
@@ -55,9 +55,9 @@ body {
 label: Hidden Attribute
 
 note: |
-  Maintain `hidden` behaviour when overriding `display` values.
+    Maintain `hidden` behaviour when overriding `display` values.
 
-  category: global
+    category: global
 */
 [hidden] {
 	display: none;
@@ -67,7 +67,7 @@ note: |
 label: Heading Sizes
 
 note: |
-  Switch to rem units for headings
+    Switch to rem units for headings
 
 category: typography
 */
@@ -94,7 +94,7 @@ h6 {
 label: H1 Margins
 
 note: |
-  Keep h1 margins consistent, even when nested.
+    Keep h1 margins consistent, even when nested.
 
 category: typography
 */
@@ -106,7 +106,7 @@ h1 {
 label: Pre Wrapping
 
 note: |
-  Overflow by default is bad...
+    Overflow by default is bad...
 
 category: typography
 */
@@ -118,9 +118,9 @@ pre {
 label: Horizontal Rule
 
 note: |
-  1. Solid, thin horizontal rules
-  2. Remove Firefox `color: gray`
-  3. Remove default `1px` height, and common `overflow: hidden`
+    1. Solid, thin horizontal rules
+    2. Remove Firefox `color: gray`
+    3. Remove default `1px` height, and common `overflow: hidden`
 
 category: typography
 */
@@ -136,10 +136,10 @@ hr {
 label: Responsive Embeds
 
 note: |
-  1. Block display is usually what we want
-  2. The `vertical-align` removes strange space-below in case authors overwrite the display value
-  3. Responsive by default
-  4. Audio without `[controls]` remains hidden by default
+    1. Block display is usually what we want
+    2. The `vertical-align` removes strange space-below in case authors overwrite the display value
+    3. Responsive by default
+    4. Audio without `[controls]` remains hidden by default
 
 category: embedded elements
 */
@@ -163,12 +163,12 @@ audio:not([controls]) {
 label: Responsive Images
 
 note: |
-  These new elements display inline by default,
-  but that's not the expected behavior for either one.
-  This can interfere with proper layout and aspect-ratio handling.
+    These new elements display inline by default,
+    but that's not the expected behavior for either one.
+    This can interfere with proper layout and aspect-ratio handling.
 
-  1. Remove the unnecessary wrapping `picture`, while maintaining contents
-  2. Source elements have nothing to display, so we hide them entirely
+    1. Remove the unnecessary wrapping `picture`, while maintaining contents
+    2. Source elements have nothing to display, so we hide them entirely
 
 category: embedded elements
 */
@@ -183,10 +183,10 @@ source {
 label: Aspect Ratios
 
 note: |
-  Maintain intrinsic aspect ratios when `max-width` is applied.
-  `iframe`, `embed`, and `object` are also embedded,
-  but have no intrinsic ratio,
-  so their `height` needs to be set explicitly.
+    Maintain intrinsic aspect ratios when `max-width` is applied.
+    `iframe`, `embed`, and `object` are also embedded,
+    but have no intrinsic ratio,
+    so their `height` needs to be set explicitly.
 
 category: embedded elements
 */
@@ -201,8 +201,8 @@ canvas {
 label: Audio Width
 
 note: |
-  There is no good reason elements default to 300px,
-  and audio files are unlikely to come with a width attribute.
+    There is no good reason elements default to 300px,
+    and audio files are unlikely to come with a width attribute.
 
 category: embedded elements
 */
@@ -214,7 +214,7 @@ audio {
 label: Image Borders
 
 note: |
-  Remove the border on images inside links in IE 10 and earlier.
+    Remove the border on images inside links in IE 10 and earlier.
 
 category: legacy browsers
 */
@@ -226,7 +226,7 @@ img {
 label: SVG Overflow
 
 note: |
-  Hide the overflow in IE 10 and earlier.
+    Hide the overflow in IE 10 and earlier.
 
 category: legacy browsers
 */
@@ -238,11 +238,11 @@ svg {
 label: HTML5 Elements
 
 note: |
-  Default block display on HTML5 elements.
-  For oldIE to apply this styling one needs to add some JS as well (i.e. `document.createElement("main")`)
+    Default block display on HTML5 elements.
+    For oldIE to apply this styling one needs to add some JS as well (i.e. `document.createElement("main")`)
 
 links:
-  - https://www.sitepoint.com/html5-older-browsers-and-the-shiv/
+    - https://www.sitepoint.com/html5-older-browsers-and-the-shiv/
 
 category: legacy browsers
 */
@@ -264,8 +264,8 @@ section {
 label: Checkbox & Radio Inputs
 
 note: |
-  1. Add the correct box sizing in IE 10
-  2. Remove the padding in IE 10
+    1. Add the correct box sizing in IE 10
+    2. Remove the padding in IE 10
 
 category: legacy browsers
 */

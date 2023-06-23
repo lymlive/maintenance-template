@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 <div align="center">
     <!-- CONTRIBUTORS -->
     <a href="https://github.com/lymlive/maintenance-template/graphs/contributors">
@@ -39,29 +40,41 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
+
 # About The Project
 
 This project is to implement a maintenance template for when sites/applications are under maintanence.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- ROADMAP -->
+
 # Roadmap
 
 See the [open issues](https://github.com/lymlive/maintenance-template/issues) for a full list of proposed features (and known issues).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CODE_OF_CONDUCT -->
+
 # Code of Conduct
+
 See [`CODE_OF_CONDUCT`](https://github.com/lymlive/maintenance-template/blob/main/CODE_OF_CONDUCT.md) for more information.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 # Contributing
+
 See [`CONTRIBUTING`](https://github.com/lymlive/maintenance-template/blob/main/CONTRIBUTING.md) for more information.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
+
 # License
+
 Distributed under the Apache-2.0 License. See [`LICENSE`](https://github.com/lymlive/maintenance-template/blob/main/LICENSE) for more information.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

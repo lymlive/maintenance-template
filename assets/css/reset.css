@@ -37,6 +37,8 @@ category: global
 */
 html {
 	line-sizing: normal;
+	margin: 0;
+	padding: 0;
 }
 
 /* @docs
@@ -48,6 +50,7 @@ note: |
 category: global
 */
 body {
+	padding: 0;
 	margin: 0;
 }
 
